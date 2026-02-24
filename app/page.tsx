@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero";
 import Capabilities from "@/components/Capabilities";
+import WebsiteBanner from "@/components/WebsiteBanner";
 import CaseStudy from "@/components/CaseStudy";
 import DeuceCaseStudy from "@/components/DeuceCaseStudy";
 import Contact from "@/components/Contact";
@@ -154,6 +155,10 @@ export default function Home() {
 
       <div id="capabilities">
         <Capabilities />
+      </div>
+
+      <div id="websites">
+        <WebsiteBanner />
       </div>
 
       {/* Divider */}

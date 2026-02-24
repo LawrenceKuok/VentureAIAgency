@@ -2,6 +2,13 @@ import RevealOnScroll from "./RevealOnScroll";
 
 const cards = [
   {
+    icon: "⚡",
+    title: "Websites in <24 Hours",
+    desc: "Landing pages, e-commerce, dashboards, and business sites — designed, built, and deployed in under a day.",
+    color: "text-neon-magenta",
+    border: "bg-neon-magenta",
+  },
+  {
     icon: "◆",
     title: "Native iOS & watchOS",
     desc: "Swift & SwiftUI apps for iPhone, iPad, and Apple Watch with native performance.",
@@ -46,7 +53,7 @@ export default function Capabilities() {
           </p>
         </RevealOnScroll>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 mt-12">
           {cards.map((card, i) => (
             <RevealOnScroll key={card.title} delay={i + 1}>
               <div className="bg-bg-card rounded-xl p-6 h-full hover:bg-bg-card-alt transition-colors">
